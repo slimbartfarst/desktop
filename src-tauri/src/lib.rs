@@ -1231,7 +1231,7 @@ async fn take_screenshot() -> Result<String, String> {
     // Get temp directory for the screenshot
     let temp_dir = std::env::temp_dir();
     let screenshot_path = temp_dir.join(&filename);
-    let _path_str = screenshot_path.to_string_lossy().to_string();
+    let path_str = screenshot_path.to_string_lossy().to_string();
 
     #[cfg(target_os = "macos")]
     {
