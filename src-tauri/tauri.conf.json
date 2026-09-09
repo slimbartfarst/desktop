@@ -36,7 +36,7 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDRDQjk0MDM0QjFEODNBRDUKUldUVk90aXhORUM1VEpQS3lRZG5LazZraEVUbFo2a3NPOXBaZVV2NHl6U1Rpd1RRcjFsSWRMVysK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEZGMzk4MURFQ0FGMENBMTMKUldRVHl2REszb0U1LzhXN0o3QUt2R21DemoxZVFva09uekc0bUsxemYxN3pHL0ZFYWdKbjlVVVoK",
       "endpoints": [
         "https://github.com/storageto/desktop/releases/latest/download/latest.json"
       ]
@@ -50,7 +50,7 @@
   "bundle": {
     "active": true,
     "targets": ["nsis", "app", "dmg", "deb", "appimage", "rpm"],
-    "createUpdaterArtifacts": "v1Compatible",
+    "createUpdaterArtifacts": true,
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
